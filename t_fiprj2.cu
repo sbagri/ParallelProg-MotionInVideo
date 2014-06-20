@@ -99,7 +99,6 @@ bool Vid::init(char *Fname)
 		printf("File Name is bigger than space allocated\n");
 		exit(20);
 	}
-	
 	memset(FileName, 0, MAX_FILE_NAME_CHARS);
 	strcpy(FileName, Fname);
 	memset(OutFileName, 0, MAX_OUTFILE_NAME_CHARS);
