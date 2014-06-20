@@ -123,7 +123,8 @@ bool Vid::open_file()
 
 	OutFile = fopen(OutFileName, "wb");
 	if(NULL == OutFile)
-	{	printf("Problem in creating output file, exiting", FileName);
+	{	
+		printf("Problem in creating output file, exiting", FileName);
 		exit(22);
 	}
 	
