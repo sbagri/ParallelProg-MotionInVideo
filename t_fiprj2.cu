@@ -133,9 +133,7 @@ bool Vid::open_file()
 		fseek(InFile, 0, SEEK_SET);
 		TotFrame = (int)(Totalbytes / ((Wdth * Hght * 3) / 2));
 	}
-	
 	BytesPerFrame = (Wdth * Hght * 3)/2;
-	
 	return 1;
 }
 
@@ -156,7 +154,6 @@ bool Vid::Prt_vid()
 
 bool Vid::ReadFrames()
 {
-	
 	return 1;
 }
 
